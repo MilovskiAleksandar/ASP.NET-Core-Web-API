@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="XAct.Core.PCL" Version="0.0.5014" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.MovieApp.Refactored.DataAccess\SEDC.MovieApp.Refactored.DataAccess.csproj" />
+    <ProjectReference Include="..\SEDC.MovieApp.Refactored.DTOs\SEDC.MovieApp.Refactored.DTOs.csproj" />
+    <ProjectReference Include="..\SEDC.MovieApp.Refactored.Mappers\SEDC.MovieApp.Refactored.Mappers.csproj" />
+    <ProjectReference Include="..\SEDC.MovieApp.Refactored.Shared\SEDC.MovieApp.Refactored.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
